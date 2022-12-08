@@ -1,9 +1,8 @@
 package main
 
 import (
-	"date_parse/date"
-	"date_parse/parse"
-	"fmt"
+	"github.com/lisy/date_parse/date"
+	"github.com/lisy/date_parse/parse"
 	"log"
 )
 
@@ -18,19 +17,19 @@ func init() {
 
 func main() {
 	//获取下一个节假日信息
-	agenday, day := date.NextBigDay("2022年6月1日", date.Date_4)
-	fmt.Println(agenday)
-	fmt.Println(day)
-	
-	//新建自定义日程
-	date.AddBigDay("生日", "2022年6月2日", "", "今天是我的生日", true)
-	countdown, day := date.NextBigDay("2022年6月1日", "")
-	fmt.Println(countdown)
-	fmt.Println(day)
-	fmt.Println(date.GetBigDayList())
+	//agenday, day := date.NextBigDay("2022年6月1日", date.Date_4)
+	//fmt.Println(agenday)
+	//fmt.Println(day)
 	//
+	////新建自定义日程
+	//date.AddBigDay("生日", "2022年6月2日", "", "今天是我的生日", true)
+	//countdown, day := date.NextBigDay("2022年6月1日", "")
+	//fmt.Println(countdown)
+	//fmt.Println(day)
+	////fmt.Println(date.GetBigDayList())
+	////
 	//date.DeleteBigDay("2022年6月2日")
-	//countdown, day = date.NextBigDay("2022年6月1日")
+	//countdown, day = date.NextBigDay("2022年6月1日", "")
 	//fmt.Println(countdown)
 	//fmt.Println(day)
 	//fmt.Println(date.GetBigDayList())

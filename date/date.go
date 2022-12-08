@@ -1,11 +1,11 @@
 package date
 
 import (
-	"date_parse/parse"
-	"date_parse/pkg"
-	"date_parse/translate"
 	"errors"
 	"fmt"
+	"github.com/lisy/date_parse/parse"
+	"github.com/lisy/date_parse/pkg"
+	"github.com/lisy/date_parse/translate"
 	"log"
 	"sort"
 	"time"

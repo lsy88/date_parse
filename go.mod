@@ -1,4 +1,4 @@
-module date_parse
+module github.com/lisy/date_parse
 
 go 1.18
 
