@@ -3,9 +3,9 @@ package date
 import (
 	"errors"
 	"fmt"
-	"github.com/lisy/date_parse/parse"
-	"github.com/lisy/date_parse/pkg"
-	"github.com/lisy/date_parse/translate"
+	"github.com/lsy88/date_parse/parse"
+	"github.com/lsy88/date_parse/pkg"
+	"github.com/lsy88/date_parse/translate"
 	"log"
 	"sort"
 	"time"
