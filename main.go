@@ -1,20 +1,5 @@
 package main
 
-import (
-	"github.com/lisy/date_parse/date"
-	"github.com/lisy/date_parse/parse"
-	"log"
-)
-
-func init() {
-	web := parse.GetWeb()
-	url, err := parse.GetURL(web)
-	if err != nil {
-		log.Fatalln(err)
-	}
-	date.InitHoliday(url)
-}
-
 func main() {
 	//获取下一个节假日信息
 	//agenday, day := date.NextBigDay("2022年6月1日", date.Date_4)

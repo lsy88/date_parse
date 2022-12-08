@@ -18,6 +18,15 @@ const (
 	Date_4 = "2006年1月2日"
 )
 
+func init() {
+	web := parse.GetWeb()
+	url, err := parse.GetURL(web)
+	if err != nil {
+		log.Fatalln(err)
+	}
+	InitHoliday(url)
+}
+
 func InitHoliday(url string) {
 	date, err := parse.Parse(url)
 	if err != nil {
