@@ -1,8 +1,8 @@
 package main
 
 import (
-	"date_parse/date"
-	"date_parse/parse"
+	"github.com/lisy/date_parse/date"
+	"github.com/lisy/date_parse/parse"
 	"fmt"
 	"log"
 )
