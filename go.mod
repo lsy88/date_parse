@@ -1,4 +1,4 @@
-module github.com/lsy88/Go_holiday
+module date_parse
 
 go 1.18
 
